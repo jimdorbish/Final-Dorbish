@@ -1,0 +1,8 @@
+runtime: python38
+
+handlers:
+# Matches requests to /images/... to files in static/images/...
+- url: /templates
+  static_dir: static/templates
+- url: /css
+  static_dir: static/css
